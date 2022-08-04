@@ -1,0 +1,86 @@
+<!Doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+	</head>
+	<body class="form-body">
+	<section id="form-section">
+		<br>
+		<div class="form-h"><h1>All the fields marked with ** are mandatory</h1></div>
+				<div id="message">
+					<form id="form-id" target="blank">
+					<label > Customer First Name:</label>
+					<input type="text" name="First Name" class="input-style" id="firstname" maxlength ="15" requre = "true" ><font color = "red">**</font>
+					<br>
+					<br>
+		
+					<label class="labels">Customer Last Name:</label>
+					<input type="text" name="Last Name" class="input-style" id="lastname" required="true" ><font color = "red">**</font>
+					<br>
+					<br>
+					<label>Customer Date of Birth:</label>
+					<input type="date" name="Date of Birth" class="input-style" id="Dob">
+					<br>
+					<br>
+					<label for="id number"> Email Address</label>
+					<input type="email" class="input-style"><font color = "red">**</font>
+					<br>
+					<br>
+					<label>Customer Password:</label>
+					<input type="password" name="password" maxlength="8" class="input-style"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true" id="password"><font color="red">**</font>
+					<br> 
+					<br>
+					<label for="age">Customer Age</label>
+					<input type="number" class="input-style">
+					<br>
+					<br>
+					<label >Customer Gender:</label>
+					<select id="gender" class="input-style">
+						<option selected = "select">Please Select</option>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="Other">Other</option>
+					</select>
+					<br>
+					<br>
+					<label>Customer Telephone:</label>
+					<input type="tel" name="Telephone"  maxlength="10" class="input-style" id="telephone"><font color="red">**</font>
+					<br>
+					<br>
+					<label for="id">Customer Project Type</label>
+					<select name="id type" class="input-style">
+						<option value="select" selected = "select">Please Select</option>
+						<option value="voters id">Web Development</option>
+						<option value="passport">Web App Development</option>
+						<option value="Ghana card">Mobile App Development</option>
+						<option value="student ID">Back-end Support</option>
+					</select>
+					<br>
+					<br>
+					<label >Customer Image:</label>
+					<input type="file" name="file" accept="iamge" class="file" id="img">
+					<br>
+					<br>
+					<label for="Information">Additional Information</label><br>
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+					<br>
+					<br>
+					<input type="submit" name="Submit" class="input-style">
+				</form>
+				</div>
+
+				<div class="form-btn">
+					<a href="index.html"><button>Back to Home</button></a>
+					</div>
+					<br>
+					<br>
+					<br>
+                 </section>
+			  
+                       
+	</body>
+	</html>
